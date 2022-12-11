@@ -1,0 +1,7 @@
+{
+  "importMap": "./import_map.json",
+  "tasks": {
+    "test": "deno run --allow-net --allow-read --allow-env src/locals.ts",
+    "serverless": "deno run --allow-net --allow-read --allow-env src/run.ts"
+  }
+}
